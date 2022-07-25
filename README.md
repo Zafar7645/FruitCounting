@@ -8,8 +8,7 @@ Once the fruits are recognized and located from the visual inputs, count of on-t
 
 # Flowchart for the Proposed System
 
-                            ![image](https://user-images.githubusercontent.com/73229846/180719707-e8a8c2a3-01ba-4e44-a946-8758b31a38bb.png)
-
+![image](https://user-images.githubusercontent.com/73229846/180719707-e8a8c2a3-01ba-4e44-a946-8758b31a38bb.png)
 
 We use YOLOv5 for detection and obtain the count of apples from images sourced from an orchard.
 
@@ -18,7 +17,6 @@ We use YOLOv5 for detection and obtain the count of apples from images sourced f
 Amongst various versions of the YOLOv5, we have trained three models and evaluated them on the basis of their precision, recall and mAP scores. The three models are YOLOv5n, YOLOv5s and YOLOv5x. The following table shows the evaluation scores of the three models trained on our custom dataset.
 
 Model   |Precision|	Recall |	mAP
-------------------------------------
 YOLOv5n |	0.588   |	0.617  |	0.588
 YOLOv5s |	0.648   |	0.595  |	0.626
 YOLOv5x |	0.624   |	0.564  |	0.597
@@ -29,13 +27,13 @@ Thus, an inference of our experiment of training and evaluating the three versio
 
 We have tested our custom trained YOLOv5s on unseen images from the dataset acquired from an apple orchard. These are some samples from the test results:
 
-                           ![image](https://user-images.githubusercontent.com/73229846/180720771-cc65149a-3762-438c-90c4-41694aeee3fb.png)
+![image](https://user-images.githubusercontent.com/73229846/180720771-cc65149a-3762-438c-90c4-41694aeee3fb.png)
 
-                           ![image](https://user-images.githubusercontent.com/73229846/180720817-daa2cb44-ace1-4a15-8acc-4cf3bd31b149.png)
+![image](https://user-images.githubusercontent.com/73229846/180720817-daa2cb44-ace1-4a15-8acc-4cf3bd31b149.png)
                            
-                           ![image](https://user-images.githubusercontent.com/73229846/180720960-508caa31-b6fb-4818-910e-1a7c463bcb17.png)
+![image](https://user-images.githubusercontent.com/73229846/180720960-508caa31-b6fb-4818-910e-1a7c463bcb17.png)
                            
-                           ![image](https://user-images.githubusercontent.com/73229846/180720989-34481c78-29a9-482b-96b3-961086a691b6.png)
+![image](https://user-images.githubusercontent.com/73229846/180720989-34481c78-29a9-482b-96b3-961086a691b6.png)
 
 # Analysis
 
@@ -43,21 +41,21 @@ The images in the result section depict the achievement of our objectives. The f
 
 The training metrics are depicted in the graph below. The graphs show the variation of loss across the epochs and the precision and recall values curve across the training epochs.
 
-                            ![image](https://user-images.githubusercontent.com/73229846/180721397-7a89e768-e4fd-4f59-aca9-f7460807dbde.png)
+![image](https://user-images.githubusercontent.com/73229846/180721397-7a89e768-e4fd-4f59-aca9-f7460807dbde.png)
                             
-                            ![image](https://user-images.githubusercontent.com/73229846/180721596-3fd08cd3-9107-440e-9b8e-0d104fabd3b3.png)
+![image](https://user-images.githubusercontent.com/73229846/180721596-3fd08cd3-9107-440e-9b8e-0d104fabd3b3.png)
 
 The above figure, shows the F1 Curve for the model, which represents that the precision and recall are normalized best at confidence value 0.440.
 
-                            ![image](https://user-images.githubusercontent.com/73229846/180721866-b015d332-253f-4849-a174-143409a05a2c.png)
+![image](https://user-images.githubusercontent.com/73229846/180721866-b015d332-253f-4849-a174-143409a05a2c.png)
                             
 The above figure, shows the precision value peaks at 1.0 at the confidence value of 0.834. 
 
-                            ![image](https://user-images.githubusercontent.com/73229846/180722117-618b3243-2a9a-4342-9cac-7b218796cb24.png)
+![image](https://user-images.githubusercontent.com/73229846/180722117-618b3243-2a9a-4342-9cac-7b218796cb24.png)
 
 Similarly, this figure shows the recall value of 0.89. 
 
-                            ![image](https://user-images.githubusercontent.com/73229846/180722305-7fb7e159-0a26-4f92-83a6-1061fa041ba6.png)       
+![image](https://user-images.githubusercontent.com/73229846/180722305-7fb7e159-0a26-4f92-83a6-1061fa041ba6.png)       
 
 This is the confusion matrix for the model which the depicts the true positives, false positives, true negatives and false negatives values predicted by the model.
 
