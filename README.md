@@ -25,7 +25,9 @@ Thus, an inference of our experiment of training and evaluating the three versio
 
 # Results
 
-We have tested our custom trained YOLOv5s on unseen images from the dataset acquired from an apple orchard. These are some samples from the test results:
+We have tested our custom trained YOLOv5s on unseen images from the dataset acquired from an apple orchard.
+Link: https://conservancy.umn.edu/handle/11299/206575
+These are some samples from the test results:
 
 ![image](https://user-images.githubusercontent.com/73229846/180720771-cc65149a-3762-438c-90c4-41694aeee3fb.png)
 
